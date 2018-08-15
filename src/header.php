@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <link rel = "stylesheet" href = "./css/uikit.min.css">
+    <link rel = "stylesheet" href = "../css/uikit.min.css">
 	<script src="./js/uikit.min.js"></script>
     <script src="./js/uikit-icons.min.js"></script>
 </head>
