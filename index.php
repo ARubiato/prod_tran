@@ -16,7 +16,7 @@
 	<div class = "uk-container">
 		<div class = "uk-card">
 			
-			<div class = "uk-card-body uk-card-muted">
+			<div class = "uk-card-body">
 				<form method = "post" >
 					<legend class = "uk-legend">Add a product</legend>
 						<div class = "uk-margin">
