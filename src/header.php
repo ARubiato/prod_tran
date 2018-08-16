@@ -24,7 +24,7 @@
 								<a href = "#">Products</a>
 								<div class = "uk-navbar-dropdown">
 									<ul class = "uk-nav uk-navbar-dropdown-nav">
-										<li><a href = "#">Add products</a></li>
+										<li><a href = "index.php">Add products</a></li>
 										<li><a href = "#">View products</a></li>
 									</ul>
 								</div>
@@ -33,7 +33,7 @@
 								<a href = "#">Transactions</a>
 								<div class = "uk-navbar-dropdown">
 									<ul class = "uk-nav uk-navbar-dropdown-nav">
-										<li><a href = "#">Transact</a></li>
+										<li><a href = "transact.php">Transact</a></li>
 										<li><a href = "#">View Transactions</a></li>
 									</ul>
 								</div>
