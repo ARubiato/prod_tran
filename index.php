@@ -17,7 +17,7 @@
 		<div class = "uk-card">
 			
 			<div class = "uk-card-body uk-card-muted">
-				<form method = "post" action = "src\update.php">
+				<form method = "post" >
 					<legend class = "uk-legend">Add a product</legend>
 						<div class = "uk-margin">
 							<input class = "uk-input uk-form-width-large" type="text" name="P_NAME" placeholder= "Product name" required>
@@ -27,7 +27,7 @@
 						</div>
 
 						<div class = "uk-margin">
-							<button class="uk-button uk-button-primary" type="submit" name = "submit">Submit</button>
+							<button class="uk-button uk-button-primary" type="submit" name = "submit">Add</button>
 						</div>
 				</form>
 			</div>
@@ -49,13 +49,14 @@
 							<td><?php echo $prdcts['P_ID'];?></td>
 							<td><?php echo $prdcts['P_NAME'];?></td>
 							<td><?php echo $prdcts['P_PRICE'];?></td>
-							<td>	<a href = "src/edit_prd.php?=<?php echo $prdcts['P_ID'] ?>" class = "uk-button uk-button-primary">EDIT</a>
-									<a href = "#"
+							<td>	<a href = "src/edit_prd.php?id=<?php echo $prdcts['P_ID'] ?>" class = "uk-button uk-button-primary">EDIT</a>
+									<a href = "php/delete_prd.php?id=<?php echo $prdcts['P_ID'] ?>" class = "uk-button uk-button-danger">DELETE</a>
 							</td>
 						</tr>
 					<?php }?>
 					</tbody>
 				</table>
+				
 			</div>
 
 		</div>
