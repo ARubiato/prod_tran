@@ -15,7 +15,8 @@ if (isset($_POST['submit'])) {
     } else {
         echo mysqli_error();
      }
-}
+    }
+
 
 
 ?>
